@@ -30,19 +30,19 @@ Tempat arsip projek & catatan lama.
 
 # Sample Struktur Folder
 
-/01. catatan
-    /ide.md
-    /cara-las-stainless.md
-    /referensi-restoran-ifex.md
-/02. departemen
-    /marketing.md
-    /sales.md
-    /karya-logam.md
-    /gudang.md
-    /3d-print.md
-/03. projek
-    /project
-        /ringkasan.md
-/04. gudang
-    /catatan hotel ifex.md
-    /projek-patung-harimau
+/01. catatan  
+    /ide.md  
+    /cara-las-stainless.md  
+    /referensi-restoran-ifex.md  
+/02. departemen  
+    /marketing.md  
+    /sales.md  
+    /karya-logam.md  
+    /gudang.md  
+    /3d-print.md  
+/03. projek  
+    /project  
+        /ringkasan.md  
+/04. gudang  
+    /catatan hotel ifex.md  
+    /projek-patung-harimau  
