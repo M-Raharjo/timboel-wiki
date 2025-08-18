@@ -28,7 +28,7 @@ Tempat arsip projek & catatan lama.
 
 ---
 
-# Sample Struktur
+# Sample Struktur Folder
 
 /01. catatan
     /ide.md
@@ -45,4 +45,4 @@ Tempat arsip projek & catatan lama.
         /ringkasan.md
 /04. gudang
     /catatan hotel ifex.md
-    /projek-patung-harimau 
+    /projek-patung-harimau
