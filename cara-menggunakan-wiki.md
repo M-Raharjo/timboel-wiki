@@ -2,20 +2,20 @@
 
 ## Struktur
 
-### /01. catatan  
+### 01. catatan  
 Tempat semua ide baru & catatan mentah.  
 
-### /02. departemen  
+### 02. departemen  
 Tempat SOP & checklist resmi per departemen.  
 Hanya update jika cara kerja berubah.
 
-### /03. projek  
+### 03. projek  
 Setiap projek punya folder sendiri.  
 Minimal buat: `ringkasan.md`.  
 Tambahkan `jadwal.md`, `catatan-rapat.md`, `lampiran/` bila perlu.  
 Selesai → pindah ke /04.
 
-### /04. gudang  
+### 04. gudang  
 Tempat arsip projek & catatan lama.  
 
 ---
