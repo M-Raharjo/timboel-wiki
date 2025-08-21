@@ -1,7 +1,7 @@
 # Wiki Guideline
 
 ## Struktur
-
+H
 ### 01. catatan  
 Tempat semua ide baru & catatan mentah.  
 
@@ -45,4 +45,4 @@ Tempat arsip projek & catatan lama.
         - /ringkasan.md  
 - /04. gudang  
     - /catatan hotel ifex.md  
-    - /projek-patung-harimau  
+    - /projek-patung-harimau
