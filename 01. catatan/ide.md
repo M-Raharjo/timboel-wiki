@@ -4,3 +4,4 @@
 - bikin tempat istirahat buat karyawan
 - pasang 3 phase
 - cari guru smk untuk coba ngajarin cara las tig
+- bikin pouncing panter dari model besar di kecilkan
