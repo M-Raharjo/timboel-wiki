@@ -10,3 +10,4 @@
 - tangga gantung buat gudang kayak punya pak husein
 - kirim barang ke sensa jakarta bu mariska
 - pohon dibawah polycarbonate untuk biar eyup eyup
+- tembok lebar gudang kasih textur dengan sisir
