@@ -9,3 +9,4 @@
 - hand tag pakai tempat kartu nama ![Image](./89dbbc67d6712359cd9759ebbb5470bb.jpg)
 - tangga gantung buat gudang kayak punya pak husein
 - kirim barang ke sensa jakarta bu mariska
+- pohon dibawah polycarbonate untuk biar eyup eyup
