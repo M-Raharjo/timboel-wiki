@@ -1,6 +1,7 @@
-# Cara pengiriman di pt timboel
+# Cara pengiriman di timboel
 
 Dalam pengiriman barang untuk ekspor, umumnya diperlukan dokumen-dokumen berikut:
+
 
 - **BL (Bill of Lading)**  
   Diterbitkan oleh pihak pelayaran atau forwarder sebagai kontrak pengangkutan.  
