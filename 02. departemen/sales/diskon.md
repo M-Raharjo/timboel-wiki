@@ -1,5 +1,7 @@
+# Diskon rule
+
 ## 1. Pendahuluan dan Tujuan
-Dokumen ini menjabarkan kebijakan diskon bagi pelanggan domestik dan ekspor. Tujuannya adalah untuk memastikan pemberian harga yang konsisten dan adil, serta memberikan pedoman bagi tim penjualan dan pelanggan dalam mengajukan atau menerima diskon.
+Dokumen ini menjabarkan kebijakan diskon bagi pelanggan domestik dan ekspor. Tujuannya adalah untuk memastikan pemberian harga yang konsisten dan adil, serta memberikan pedoman bagi tim penjualan dan pelanggan dalam mengajukan atau menerima diskon..
 
 ---
 
