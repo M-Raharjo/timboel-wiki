@@ -1,8 +1,10 @@
+# Ketahanan material
+
 ## 1. Aluminium
 
 **Ketahanan:**
 - Finishing (cat) aluminium dapat bertahan hingga 5 tahun.
-- Struktur aluminium itu sendiri tahan hingga 20 tahun.
+- Struktur aluminium itu sendiri tahan hingga 20 tahun..
 
 **Perawatan:**
 - Jaga agar permukaan tetap kering (*keep dry*).
