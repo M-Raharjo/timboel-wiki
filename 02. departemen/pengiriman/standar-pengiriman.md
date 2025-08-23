@@ -1,4 +1,4 @@
-# cara pengiriman di pt timboel
+# Cara pengiriman di pt timboel
 
 Dalam pengiriman barang untuk ekspor, umumnya diperlukan dokumen-dokumen berikut:
 
@@ -21,7 +21,7 @@ Dalam pengiriman barang untuk ekspor, umumnya diperlukan dokumen-dokumen berikut
 - **Asbestos Certification**  
   Diperlukan jika barang atau kemasan mengandung asbes, atau jika diwajibkan oleh negara tujuan.  
 - **ISPM (International Phytosanitary Standard for Wood Packaging)**  
-  Memastikan kemasan kayu telah memenuhi standar fitosanitari global..
+  Memastikan kemasan kayu telah memenuhi standar fitosanitari global.
 
 > **Catatan:**  
 > Beberapa dokumen bersifat **opsional**, bergantung pada regulasi dan persyaratan negara tujuan. Daftar dokumen yang diperlukan dapat **bertambah atau berkurang** sesuai ketentuan yang berlaku.
