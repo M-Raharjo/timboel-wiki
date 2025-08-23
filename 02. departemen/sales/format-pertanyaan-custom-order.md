@@ -1,3 +1,5 @@
+# Template Pertanyaan custom order
+
 DATA CUSTOMER
 1.	Nama Lengkap:
 2.	Nomor Telepon / WhatsApp:
@@ -6,6 +8,7 @@ DATA CUSTOMER
 5.	Nama Perusahaan / Instansi (jika ada):
 6.	Tanggal Pemesanan:
 7.	Deadline yang Diharapkan:
+8.	
 ________________________________________
 📌 DETAIL PRODUK YANG DIPESAN
 
