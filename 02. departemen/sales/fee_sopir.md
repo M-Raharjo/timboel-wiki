@@ -1,4 +1,4 @@
-Syarat dan Ketentuan Fee untuk Sopir
+# Syarat dan Ketentuan Fee untuk Sopir
  
 - penerima fee hanya akan menerima fee jika membawa customer baru yang langusng melakukan transaksi pembelian
 - fee yang diberikan adalah 5% dari total pembelian setelah diskon, fee tersebut akan dipotong pajak sebesar 3%
