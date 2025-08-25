@@ -1,3 +1,5 @@
+# Ukuran Foto Produk
+
 STORAGE
 
 Max Camera Resolution RAW Storage
@@ -8,6 +10,7 @@ Max Camera Resolution RAW Storage
 - Flat sudut ; hero, detail, gallery, thumb, hbanner, box, story
 - Interior Mahal x3, Scale; hero, detail, gallery
 - Exterior Garden x3, Scale; hero, detail, gallery
+
  
 flat = white or black background, easy to remove background. consistent color per item. 
 scale = difotonya ada kursi di dekat objek sebagai pembanding skala
