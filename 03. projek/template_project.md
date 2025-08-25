@@ -1,7 +1,7 @@
 ---
 nama: sample-project
 id: PROJ-1234556
-type: project
+type: custom-order # custom-order | perintah-kerja | pengembangan
 status: in_progress
 dibuat: 2025-08-24, YYYY-MM-DD
 deadline: 2025-09-30, YYYY-MM-DD
