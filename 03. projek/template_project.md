@@ -1,32 +1,39 @@
 ---
-nama: sample-project
-id: PROJ-1234556
-type: custom-order # custom-order | perintah-kerja | pengembangan
-status: in_progress
-dibuat: 2025-08-24, YYYY-MM-DD
-deadline: 2025-09-30, YYYY-MM-DD
+nama: sample_project
+type: custom_order # custom_order | perintah_kerja | pengembangan
+status: progress # baru | progress
+dibuat: YYYY-MM-DD
+deadline: YYYY-MM-DD
 ---
 
-# sample-project
+# Template Projek
 
 ## Ringkasan Adiksimba
-apa, dimana, kapan, siapa, mengapa, dan bagaimana
+- apa: 
+- dimana: 
+- kapan: 
+- siapa: 
+- mengapa: 
+- bagaimana: 
+
+[catatan]: # (untuk perintah kerja hanya butuh: apa, siapa, kapan)
 
 ## Checklist
-- [ ] confirm design
-- [ ] model kecil
-- [ ] dp
-- [ ] produksi model
+- [ ] Langkah langkah utama yang harus diselesaikan
+
+[contoh]: # (confirm design, model kecil, dp, produksi model)
 
 ## Jadwal (opsional)
-- [ ] survey ke jakarta, 2025-08-17
+- [ ] Jadwal aktivitas penting + tanggal deadline
+- [ ] Format: nama kegiatan, YYYY-MM-DD
 
 ## Hasil Rapat (opsional)
-### Rapat 2025-10-23
-- material diganti kuningan
-- bentuk dikasih mata tambahan
-- pembayaran akan mundur 2 minggu
+### Rapat YYYY-MM-DD
+- Point keputusan rapat ditulis disini
+- Gunakan bullet list supaya mudah dibaca
+
 
 ## Lampiran (opsional)
-- foto produk
-- gambar lapangan
+- Daftar dokumen yang dibutuh kan project
+
+[contoh]: # (foto, 3d model, gambar lapangan, pdf)
