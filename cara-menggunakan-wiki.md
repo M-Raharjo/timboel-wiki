@@ -1,7 +1,7 @@
 # Wiki Guideline
 
 ## Struktur
-H
+
 ### 01. catatan  
 Tempat semua ide baru & catatan mentah.  
 
