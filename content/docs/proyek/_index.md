@@ -1,6 +1,7 @@
 ---
 title: "03. proyek"
 weight: 3
+bookCollapseSection: true
 ---
 # proyek
 
