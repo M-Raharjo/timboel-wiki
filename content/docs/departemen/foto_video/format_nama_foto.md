@@ -1,6 +1,6 @@
 # Ukuran Foto Produk
 
-STORAGE
+## Penyimpanan
 
 Max Camera Resolution RAW Storage
 - Flat depan; detail, gallery, box, story
@@ -16,7 +16,7 @@ flat = white or black background, easy to remove background. consistent color pe
 scale = difotonya ada kursi di dekat objek sebagai pembanding skala
 sudut = 3/4 view, antara depan kiri atau depan kanan
 
-WEBSITE
+## Format Website
 
 1920x1080 JPEG Hero
 3000x3000 JPEG Detail
@@ -24,14 +24,15 @@ WEBSITE
 300x300 JPEG Thumbnail
 1920x600 JPEG HBanner
 
-INSTAGRAM 
+## Format Instagram
 
 1080x1080 JPEG Box
 1080x1920 JPEG Story
 
 ---------
 
-Format Nama:
+
+## Format File Name
 
 id_jenisStorage_jenisResolusi
 
@@ -45,7 +46,7 @@ SB-2D0919F4-BC_interior03_hero
 
 --------
 
-Folder Structure
+## Folder Structure
 
 Foto PT. Timboel/public-folder  
 Foto PT. Timboel/foto/id/RAW
