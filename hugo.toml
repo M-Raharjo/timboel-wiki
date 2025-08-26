@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://m-raharjo.github.io/timboel-wiki"
 languageCode = "id"
 title = "Wiki Timboel"
 theme = "hugo-book"
