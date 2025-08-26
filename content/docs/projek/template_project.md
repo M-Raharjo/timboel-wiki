@@ -4,6 +4,7 @@ type: custom_order # custom_order | perintah_kerja | pengembangan
 status: progress # baru | progress
 dibuat: YYYY-MM-DD
 deadline: YYYY-MM-DD
+bookhidden: true
 ---
 
 # Template Projek

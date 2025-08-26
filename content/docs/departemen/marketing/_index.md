@@ -1,5 +1,5 @@
 ---
-title: "foto-video"
+title: "Marketing"
 weight: 1
 bookCollapseSection: true
 ---
