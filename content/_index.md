@@ -7,28 +7,27 @@ title: "Wiki"
 
 ## Struktur
 
-{{% columns %}}
-- {{< card title="01. catatan" link="/01-catatan/" >}}
-  Tempat semua ide baru & catatan mentah.
-  {{< /card >}}
+### 01. catatan
+Tempat semua ide baru & catatan mentah. 
+ 
+→ [/01-catatan/](/01-catatan/)
 
-- {{< card title="02. departemen" link="/02-departemen/" >}}
-  SOP & checklist resmi per departemen.  
-  Hanya update jika cara kerja berubah.
-  {{< /card >}}
-{{% /columns %}}
+### 02. departemen
+SOP & checklist resmi per departemen.  
 
-{{% columns %}}
-- {{< card title="03. proyek" link="/03-proyek/" >}}
-  Setiap proyek punya folder sendiri.  
-  Minimal: `ringkasan` dan `checklist`. Tambahkan `jadwal`, `catatan-rapat`, `lampiran` bila perlu.  
-  Selesai → pindah ke /04.
-  {{< /card >}}
+→ [/02-departemen/](/02-departemen/)
 
-- {{< card title="04. gudang" link="/04-gudang/" >}}
-  Arsip proyek & catatan lama.
-  {{< /card >}}
-{{% /columns %}}
+### 03. projek
+Setiap proyek punya folder sendiri.  
+Minimal: `ringkasan` dan `checklist`. Tambahkan `jadwal`, `catatan-rapat`, `lampiran` bila perlu.  
+Selesai → pindah ke /04.
+
+→ [/03-projek/](/03-projek/)
+
+### 04. Arsip
+Arsip proyek & catatan lama.
+
+→ [/04-gudang/](/04-gudang/)
 
 ---
 
