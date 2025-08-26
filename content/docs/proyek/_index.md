@@ -1,10 +1,13 @@
 ---
-title: "03. projek"
+title: "03. proyek"
 weight: 3
+bookCollapseSection: true
 ---
-Setiap projek punya file sendiri. Minimal buat **Ringkasan** dan **Checklist**. Tambahkan `Jadwal`, `Catatan rapat`, `Lampiran` bila perlu.
+# proyek
 
-Copy-Paste Template berikut saat membuat project baru
+Setiap proyek punya file sendiri. Minimal buat **Ringkasan** dan **Checklist**. Tambahkan `Jadwal`, `Catatan rapat`, `Lampiran` bila perlu.
+
+Copy-Paste Template berikut saat membuat proyek baru
 
 ```
 ---
@@ -15,7 +18,7 @@ dibuat: YYYY-MM-DD
 deadline: YYYY-MM-DD
 ---
 
-# Template Projek
+# Template proyek
 
 ## Ringkasan Adiksimba
 - apa: 
@@ -43,7 +46,7 @@ deadline: YYYY-MM-DD
 
 
 ## Lampiran (opsional)
-- Daftar dokumen yang dibutuh kan project
+- Daftar dokumen yang dibutuh kan proyek
 
 [contoh]: # (foto, 3d model, gambar lapangan, pdf)
 ```

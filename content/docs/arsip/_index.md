@@ -1,5 +1,6 @@
 ---
-title: "04. gudang"
+title: "04. arsip"
 weight: 4
+bookCollapseSection: true
 ---
-Tempat arsip projek & catatan lama.
+# Arsip
