@@ -21,7 +21,7 @@ title: "Wiki"
 {{% columns %}}
 - {{< card title="03. proyek" link="/03-proyek/" >}}
   Setiap proyek punya folder sendiri.  
-  Minimal: `ringkasan.md`. Tambahkan `jadwal.md`, `catatan-rapat.md`, `lampiran/` bila perlu.  
+  Minimal: `ringkasan` dan `checklist`. Tambahkan `jadwal`, `catatan-rapat`, `lampiran` bila perlu.  
   Selesai → pindah ke /04.
   {{< /card >}}
 

@@ -1,9 +1,9 @@
 ---
-title: "03. proyek"
+title: "03. Proyek"
 weight: 3
 bookCollapseSection: true
 ---
-# proyek
+# Proyek
 
 Setiap proyek punya file sendiri. Minimal buat **Ringkasan** dan **Checklist**. Tambahkan `Jadwal`, `Catatan rapat`, `Lampiran` bila perlu.
 

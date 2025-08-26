@@ -1,5 +1,5 @@
 ---
-title: "04. arsip"
+title: "04. Arsip"
 weight: 4
 bookCollapseSection: true
 ---
