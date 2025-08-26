@@ -19,14 +19,14 @@ title: "Wiki"
 {{% /columns %}}
 
 {{% columns %}}
-- {{< card title="03. projek" link="/03-projek/" >}}
-  Setiap projek punya folder sendiri.  
+- {{< card title="03. proyek" link="/03-proyek/" >}}
+  Setiap proyek punya folder sendiri.  
   Minimal: `ringkasan.md`. Tambahkan `jadwal.md`, `catatan-rapat.md`, `lampiran/` bila perlu.  
   Selesai → pindah ke /04.
   {{< /card >}}
 
 - {{< card title="04. gudang" link="/04-gudang/" >}}
-  Arsip projek & catatan lama.
+  Arsip proyek & catatan lama.
   {{< /card >}}
 {{% /columns %}}
 
@@ -35,5 +35,5 @@ title: "Wiki"
 ## Jalur Catatan
 1. Ide baru → `/01. catatan`  
 2. Jadi SOP → `/02. departemen`  
-3. Jadi projek → `/03. projek`  
-4. Projek selesai → `/04. gudang`
+3. Jadi proyek → `/03. proyek`  
+4. proyek selesai → `/04. gudang`

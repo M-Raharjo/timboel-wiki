@@ -7,7 +7,7 @@ deadline: YYYY-MM-DD
 bookhidden: true
 ---
 
-# Template Projek
+# Template proyek
 
 ## Ringkasan Adiksimba
 - apa: 
