@@ -28,7 +28,7 @@ Tempat arsip projek & catatan lama.
 
 ---
 
-# Sample Struktur Folder
+## Sample Struktur Folder
 
 - /01. catatan  
     - /ide.md  
