@@ -11,3 +11,4 @@
 - kirim barang ke sensa jakarta bu mariska
 - pohon dibawah polycarbonate untuk biar eyup eyup
 - tembok lebar gudang kasih textur dengan sisir
+- meeting mingguan setiap hari senin. magis, sofi, naufan, mas margono, pak kirun, mbak wahyu
