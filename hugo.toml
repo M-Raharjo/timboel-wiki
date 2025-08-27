@@ -2,3 +2,13 @@ baseURL = "https://m-raharjo.github.io/timboel-wiki"
 languageCode = "id"
 title = "Wiki Timboel"
 theme = "hugo-book"
+# Optional but nice: show git info (author/last modified)
+enableGitInfo = true
+
+[params]
+# This renders an "Edit this page" link in the footer of every page
+# Adjust USER/REPO/BRANCH as needed. .Path is the page path under /content
+BookEditLink = "https://github.com/M-Raharjo/timboel-wiki/edit/main/content/{{ .Path }}"
+
+# (Optional) also show a “Last change” commit link
+BookLastChangeLink = "https://github.com/M-Raharjo/timboel-wiki/commit/{{ .GitInfo.Hash }}"
