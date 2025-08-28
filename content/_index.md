@@ -9,25 +9,25 @@ title: "Wiki"
 
 ### 01. catatan
 Tempat semua ide baru & catatan mentah. 
- 
-→ [/01-catatan/](/01-catatan/)
+
+→ [/01-catatan/](/catatan/)
 
 ### 02. departemen
 SOP & checklist resmi per departemen.  
 
-→ [/02-departemen/](/02-departemen/)
+→ [/02-departemen/](/departemen/)
 
 ### 03. projek
 Setiap proyek punya folder sendiri.  
 Minimal: `ringkasan` dan `checklist`. Tambahkan `jadwal`, `catatan-rapat`, `lampiran` bila perlu.  
 Selesai → pindah ke /04.
 
-→ [/03-projek/](/03-projek/)
+→ [/03-projek/](/projek/)
 
 ### 04. Arsip
 Arsip proyek & catatan lama.
 
-→ [/04-gudang/](/04-gudang/)
+→ [/04-gudang/](/gudang/)
 
 ---
 
