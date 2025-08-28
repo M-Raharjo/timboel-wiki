@@ -1,26 +1,20 @@
 ---
-title: "03. Proyek"
-weight: 3
-bookCollapseSection: true
+title: "Template Proyek"
+weight: 1
 ---
 
-# Proyek
-
-Setiap proyek punya file sendiri. Minimal buat **Ringkasan** dan **Checklist**. Tambahkan `Jadwal`, `Catatan rapat`, `Lampiran` bila perlu.
-
-Copy-Paste Template berikut saat membuat proyek baru
-
+# Template Proyek
 
 ```
 ---
-nama: sample_project
+nama: contoh_proyek
 type: custom_order # custom_order | perintah_kerja | pengembangan
 status: progress # baru | progress
 dibuat: YYYY-MM-DD
 deadline: YYYY-MM-DD
 ---
 
-# Template proyek
+# Nama Proyek
 
 ## Ringkasan Adiksimba
 - apa: 
@@ -48,7 +42,7 @@ deadline: YYYY-MM-DD
 
 
 ## Lampiran (opsional)
-- Daftar dokumen yang dibutuh kan proyek
+- Daftar dokumen yang dibutuh kan project
 
 [contoh]: # (foto, 3d model, gambar lapangan, pdf)
 ```
