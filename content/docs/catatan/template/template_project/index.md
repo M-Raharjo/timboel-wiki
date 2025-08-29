@@ -1,10 +1,15 @@
 ---
-nama: sample_project
+title: "Template Proyek"
+---
+
+
+```
+---
+nama: contoh_proyek
 type: custom_order # custom_order | perintah_kerja | pengembangan
 status: progress # baru | progress
 dibuat: YYYY-MM-DD
 deadline: YYYY-MM-DD
-bookhidden: true
 ---
 
 # Template proyek
@@ -35,6 +40,7 @@ bookhidden: true
 
 
 ## Lampiran (opsional)
-- Daftar dokumen yang dibutuh kan project
+- Daftar dokumen yang dibutuh kan proyek
 
 [contoh]: # (foto, 3d model, gambar lapangan, pdf)
+```

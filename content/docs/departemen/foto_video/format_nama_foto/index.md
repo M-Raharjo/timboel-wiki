@@ -1,3 +1,8 @@
+---
+title: "Format Nama Foto"
+---
+
+
 # Ukuran Foto Produk
 
 ## Penyimpanan

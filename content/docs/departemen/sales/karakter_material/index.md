@@ -1,3 +1,8 @@
+---
+title: "Karakter Material"
+---
+
+
 # Ketahanan material
 
 ## 1. Aluminium
