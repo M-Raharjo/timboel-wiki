@@ -1,0 +1,15 @@
+# .markdownlint.yml
+# Keep things practical for prose-heavy content
+default: true
+
+# Allow long lines (Hugo shortcodes, links, tables break if forced to 80 cols)
+MD013: false
+
+# Allow multiple top-level headings (each page bundle has its own index.md)
+MD025: false
+
+# Don’t enforce line length on headings
+MD026: false
+
+# Require spaces after headings
+MD018: true

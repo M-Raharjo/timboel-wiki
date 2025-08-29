@@ -1,0 +1,49 @@
+name: Continous Integration
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (with submodules for theme)
+        uses: actions/checkout@v4
+
+      - name: setup node
+        uses: actions/setup-node@v4
+        with: 
+          node-version: latest
+
+      - name: Install markdown linter
+        run: npm i -g markdownlint-cli
+
+      - name: Checking syntax mistakes in markdown
+        run: markdownlint "**/*.md" "**/*.mdx" -c .github/workflow_configs/markdownlint.yml || 
+        
+      - name: Install yaml linter
+        run: pipx install yamllint
+      
+      - name: Checking syntax mistakes in yaml
+        run: yamllint -s .
+        
+      - name: Build
+        run: hugo --minify
+
+      - name: Link check (Markdown + built HTML)
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --exclude-mail
+            --accept 200,206,429
+            "**/*.md" "public/**/*.html"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
