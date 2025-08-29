@@ -8,17 +8,19 @@ title: "Wiki"
 ## Struktur
 
 ### 01. catatan
+Setiap catatan punya folder sendiri.  
 Tempat semua ide baru & catatan mentah. 
 
 → [/01-catatan/](docs/catatan/)
 
 ### 02. departemen
+Setiap SOP punya folder sendiri.  
 SOP & checklist resmi per departemen.  
 
 → [/02-departemen/](docs/departemen/)
 
 ### 03. projek
-Setiap proyek punya folder sendiri.  
+Setiap proyek punya folder sendiri.   
 Minimal: `ringkasan` dan `checklist`. Tambahkan `jadwal`, `catatan-rapat`, `lampiran` bila perlu.  
 Selesai → pindah ke [/04-arsip/](docs/arsip/)
 
