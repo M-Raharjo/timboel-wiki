@@ -1,6 +1,6 @@
-name: Continous Integration
+name: Continuous Integration
 
-on:
+"on":
   pull_request:
   push:
     branches: ["main"]
@@ -15,29 +15,33 @@ jobs:
     steps:
       - name: Checkout (with submodules for theme)
         uses: actions/checkout@v4
+        with:
+          submodules: true
 
-      - name: setup node
+      - name: Setup Node (for linters/scripts)
         uses: actions/setup-node@v4
-        with: 
+        with:
           node-version: 20
 
       - name: Install markdown linter
-        run: npm i -g markdownlint-cli
+        run: npm i -g markdownlint-cli@0.41.0
 
       - name: Checking syntax mistakes in markdown
-        run: markdownlint "**/*.md" "**/*.mdx" -c .github/workflow_configs/markdownlint.yml || true
-        
+        run: |
+          markdownlint "**/*.md" "**/*.mdx" \
+            -c .github/workflow_configs/markdownlint.yml || true
+
       - name: Install yaml linter
-        run: pipx install yamllint
+        run: pipx install yamllint || pip install --user yamllint
 
       - name: Checking syntax mistakes in yaml
-        run: | 
-         yamllint -d '{extends: default, rules: {document-start: disable}}' -s .
+        run: |
+          yamllint -d "{extends: default, rules: {document-start: disable}}" -s .
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "latest"   # or latest stable
+          hugo-version: "0.128.2"
           extended: true
 
       - name: Build
