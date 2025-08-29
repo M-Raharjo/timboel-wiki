@@ -19,7 +19,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v4
         with: 
-          node-version: latest
+          node-version: 20
 
       - name: Install markdown linter
         run: npm i -g markdownlint-cli
@@ -31,7 +31,14 @@ jobs:
         run: pipx install yamllint
 
       - name: Checking syntax mistakes in yaml
-        run: yamllint -d '{extends: default, rules: {document-start: disable}}' -s .
+        run: | 
+         yamllint -d '{extends: default, rules: {document-start: disable}}' -s .
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"   # or latest stable
+          extended: true
 
       - name: Build
         run: hugo --minify
