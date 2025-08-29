@@ -1,4 +1,4 @@
----
+
 # .markdownlint.yml
 # Keep things practical for prose-heavy content
 default: true
@@ -14,4 +14,3 @@ MD026: false
 
 # Require spaces after headings
 MD018: true
----
