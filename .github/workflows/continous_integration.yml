@@ -25,14 +25,14 @@ jobs:
         run: npm i -g markdownlint-cli
 
       - name: Checking syntax mistakes in markdown
-        run: markdownlint "**/*.md" "**/*.mdx" -c .github/workflow_configs/markdownlint.yml || 
+        run: markdownlint "**/*.md" "**/*.mdx" -c .github/workflow_configs/markdownlint.yml || true
         
       - name: Install yaml linter
         run: pipx install yamllint
       
       - name: Checking syntax mistakes in yaml
         run: yamllint -s .
-        
+
       - name: Build
         run: hugo --minify
 
