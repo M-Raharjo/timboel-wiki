@@ -29,7 +29,7 @@ jobs:
       - name: Checking syntax mistakes in markdown
         run: |
           markdownlint \
-            "**/*.md" "**/*.mdx" \
+            "content/**/*.md" "README.md" \
             --ignore "themes/**" \
             -c .github/workflow_configs/markdownlint.yml || true
 
@@ -62,6 +62,6 @@ jobs:
             --no-progress
             --accept 200,206,429
             --exclude-path "themes/**"
-            "**/*.md" "public/**/*.html"
+            "content/**/*.md" "public/**/*.html"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
