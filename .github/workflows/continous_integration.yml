@@ -37,7 +37,8 @@ jobs:
       - name: Checking syntax mistakes in yaml
         run: |
           yamllint -d \
-            "{extends: default, rules: {document-start: disable}}" -s .github/workflows
+            "{extends: default, rules: {document-start: disable}}" -s \
+             .github/workflows
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
