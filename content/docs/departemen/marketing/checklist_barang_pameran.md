@@ -1,7 +1,3 @@
----
-title: "Checklist barang pameran"
----
-
 # Alat pameran
 
 ## A. ATK

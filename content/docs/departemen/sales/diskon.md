@@ -1,8 +1,3 @@
----
-title: "Diskon Rule"
----
-
-
 # Diskon rule
 
 ## 1. Pendahuluan dan Tujuan

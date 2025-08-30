@@ -1,8 +1,3 @@
----
-title: "Standar Pengiriman"
----
-
-
 # Cara pengiriman di timboel
 
 Dalam pengiriman barang untuk ekspor, umumnya diperlukan dokumen-dokumen berikut:

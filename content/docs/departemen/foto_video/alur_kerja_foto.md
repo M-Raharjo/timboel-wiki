@@ -1,7 +1,3 @@
----
-title: "Alur kerja foto"
----
-
 # Panduan Alur Kerja Tim Fotografi
 
 ## Alur Umum

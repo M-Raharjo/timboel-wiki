@@ -1,8 +1,3 @@
----
-title: "Konsolidasi Dengan Timboel"
----
-
-
 # Konsolidasi dengan Timboel
 
 PT Timboel menawarkan **dua metode utama** untuk konsolidasi pengiriman. Pihak eksportir dan Supplier juga dapat mengombinasikan kedua metode ini sesuai kebutuhan.

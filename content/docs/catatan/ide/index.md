@@ -1,8 +1,3 @@
----
-title: "Ide"
-weight: 1
----
-
 # Ide
 
 - coba pake liquid metal paint dari pak marco pvd paint
