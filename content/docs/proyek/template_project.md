@@ -1,10 +1,9 @@
 ---
 nama: sample_project
 type: custom_order # custom_order | perintah_kerja | pengembangan
-status: progress # baru | progress
+status: progress # baru | progress | selesai
 dibuat: YYYY-MM-DD
-deadline: YYYY-MM-DD
-bookhidden: true
+deadline: YYYY-MM-DD # deadline di tentukan oleh penerima proyek
 ---
 
 # Template proyek
@@ -17,7 +16,7 @@ bookhidden: true
 - mengapa: 
 - bagaimana: 
 
-[catatan]: # (untuk perintah kerja hanya butuh: apa, siapa, kapan)
+[catatan]: # (untuk perintah_kerja hanya butuh: apa, siapa, kapan)
 
 ## Checklist
 - [ ] Langkah langkah utama yang harus diselesaikan
