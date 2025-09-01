@@ -2,7 +2,7 @@ name: Auto-attach uploaded images
 
 on:
   push:
-    branches: [main]
+    branches: ["main"]
     paths:
       - 'content/**/*.{png,jpg,jpeg,gif,webp,svg}'
 
