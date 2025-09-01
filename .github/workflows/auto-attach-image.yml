@@ -1,0 +1,89 @@
+name: Auto-attach uploaded images
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'content/**/*.{png,jpg,jpeg,gif,webp,svg}'
+
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout (full history for diff)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect added images in this push
+        id: diff
+        shell: bash
+        run: |
+          set -euo pipefail
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+
+          # List only files that were Added (A) and match our image paths
+          git diff --name-status "$BEFORE" "$AFTER" \
+            | awk '$1=="A"{print $2}' \
+            | grep -Ei '^content/.*\.(png|jpe?g|gif|webp|svg)$' || true > added.txt
+
+          if [ -s added.txt ]; then
+            echo "added=$(paste -sd',' added.txt)" >> "$GITHUB_OUTPUT"
+            echo "Found added images:"
+            cat added.txt
+          else
+            echo "No new images."
+          fi
+
+      - name: Update index.md/_index.md with links
+        if: steps.diff.outputs.added != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r img; do
+            bundle_dir="$(dirname "$img")"
+
+            # Prefer index.md (page bundle). Fallback to _index.md (section page).
+            idx="$bundle_dir/index.md"
+            if [ ! -f "$idx" ]; then
+              idx="$bundle_dir/_index.md"
+            fi
+            if [ ! -f "$idx" ]; then
+              echo "No index.md/_index.md in $bundle_dir — skipping $img"
+              continue
+            fi
+
+            # Relative path from the bundle dir to the image (supports subfolders)
+            rel="./$(realpath --relative-to="$bundle_dir" "$img")"
+
+            # Ensure "## Lampiran" section exists
+            if ! grep -qE '^\s*##\s+Lampiran\s*$' "$idx"; then
+              printf '\n## Lampiran\n\n' >> "$idx"
+            fi
+
+            # Link line (avoid duplicates)
+            link="* [$(basename "$img")]($rel)"
+            if ! grep -Fq "$link" "$idx"; then
+              printf '%s\n' "$link" >> "$idx"
+              echo "Added link to $(basename "$img") in $idx"
+            else
+              echo "Link already present for $(basename "$img") in $idx"
+            fi
+          done < added.txt
+
+      - name: Commit and push changes
+        if: steps.diff.outputs.added != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          git commit -m "chore: auto-attach image links to page bundles"
+          git push
