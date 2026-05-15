@@ -1,0 +1,36 @@
+name: Publish BookStack Shelves
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "bookstack/**"
+      - "scripts/bookstack_sync.py"
+      - ".github/workflows/publish-bookstack.yml"
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pyyaml
+
+      - name: Publish to BookStack
+        env:
+          BOOKSTACK_URL: ${{ secrets.BOOKSTACK_URL }}
+          BOOKSTACK_TOKEN_ID: ${{ secrets.BOOKSTACK_TOKEN_ID }}
+          BOOKSTACK_TOKEN_SECRET: ${{ secrets.BOOKSTACK_TOKEN_SECRET }}
+        run: |
+          python scripts/bookstack_sync.py bookstack
